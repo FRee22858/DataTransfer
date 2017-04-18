@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DataTransfer", "DataTransfer\DataTransfer.pyproj", "{D3274E0E-8256-42C2-AEFA-3280EBADAE5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTransferMonitor", "..\DBTransferMonitor\DBTransferMonitor.csproj", "{68B1771B-4814-47FF-A775-807EC095D72D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTransferMonitor", "DBTransferMonitor\DBTransferMonitor.csproj", "{68B1771B-4814-47FF-A775-807EC095D72D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
