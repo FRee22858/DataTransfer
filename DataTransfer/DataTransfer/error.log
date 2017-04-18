@@ -1,0 +1,26 @@
+[2017-04-17 11:44:45][ERROR]>CreateChar error code: HTTP Error 504: Gateway Time-out
+[2017-04-17 11:44:45][WARNING]>ssDb input errcode:  -1
+[2017-04-17 11:44:45][WARNING]>errline second send begin...
+[2017-04-17 11:44:55][ERROR]>CreateChar error code: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[2017-04-17 11:44:55][WARNING]>errline second send end...
+[2017-04-17 11:45:04][ERROR]>DataTransfer.run() error code: 'gbk' codec can't encode character '\ufeff' in position 72: illegal multibyte sequence
+[2017-04-17 11:45:06][ERROR]>CreateChar error code: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[2017-04-17 11:45:06][WARNING]>ssDb input errcode:  -1
+[2017-04-17 11:45:07][WARNING]>errline second send begin...
+[2017-04-17 11:45:08][ERROR]>CreateChar error code: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[2017-04-17 11:45:08][WARNING]>errline second send end...
+[2017-04-17 11:45:08][ERROR]>DataTransfer.run() error code: 'gbk' codec can't encode character '\ufeff' in position 72: illegal multibyte sequence
+[2017-04-17 11:45:10][ERROR]>CreateChar error code: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[2017-04-17 11:45:10][WARNING]>ssDb input errcode:  -1
+[2017-04-17 11:45:10][WARNING]>errline second send begin...
+[2017-04-17 11:45:11][ERROR]>CreateChar error code: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[2017-04-17 11:45:36][WARNING]>errline second send end...
+[2017-04-17 11:45:36][ERROR]>DataTransfer.run() error code: 'gbk' codec can't encode character '\ufeff' in position 72: illegal multibyte sequence
+[2017-04-17 11:46:37][ERROR]>DataFactory.work() error code: list index out of range
+[2017-04-17 11:48:22][ERROR]>DataFactory.work() error code: a bytes-like object is required, not 'str'
+[2017-04-17 11:49:06][ERROR]>DataFactory.work() error code: a bytes-like object is required, not 'str'
+[2017-04-17 11:51:42][ERROR]>DataFactory.work() error code: a bytes-like object is required, not 'str'
+[2017-04-17 11:54:07][ERROR]>DataFactory.work() error code: list index out of range
+[2017-04-17 11:54:15][ERROR]>DataFactory.work() error code: a bytes-like object is required, not 'str'
+[2017-04-17 11:55:02][ERROR]>DataFactory.work() error code: a bytes-like object is required, not 'str'
+[2017-04-17 11:56:22][ERROR]>DataFactory.work() error code: list index out of range
