@@ -1,6 +1,0 @@
-D:\GitHub\DataTransfer\DataTransfer\DBTransferMonitor\bin\Debug\DBTransferMonitor.exe.config
-D:\GitHub\DataTransfer\DataTransfer\DBTransferMonitor\bin\Debug\DBTransferMonitor.exe
-D:\GitHub\DataTransfer\DataTransfer\DBTransferMonitor\bin\Debug\DBTransferMonitor.pdb
-D:\GitHub\DataTransfer\DataTransfer\DBTransferMonitor\obj\Debug\DBTransferMonitor.csprojResolveAssemblyReference.cache
-D:\GitHub\DataTransfer\DataTransfer\DBTransferMonitor\obj\Debug\DBTransferMonitor.exe
-D:\GitHub\DataTransfer\DataTransfer\DBTransferMonitor\obj\Debug\DBTransferMonitor.pdb
