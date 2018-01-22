@@ -2,8 +2,7 @@
 import DBManager
 import Log
 
-#YYZJ_CONSUME|703|1|1|1|1001|IOS|111122222|20180116|BattleWin|504|1000|29|0
-class DataAnalysis_Consume():
+class DataAnalysis_Battle():
      m_tableName = ''
      arr=[]
      db = None
@@ -27,7 +26,7 @@ class DataAnalysis_Consume():
                   bRet=self.db.insert(self.m_tableName,items)
                   return bRet
               except Exception as e:
-                  Log.error("DataAnalysis_Consume.analysis() db error code: %s"%(str(e)))
+                  Log.error("DataAnalysis_Battle.analysis() db error code: %s"%(str(e)))
                   return -1
            else:
                 return 0

@@ -3,6 +3,7 @@ import DataAnalysis_Consume
 import DataAnalysis_Obtain
 import DataAnalysis_CharBaseAction
 import DataAnalysis_CreateChar
+import DataAnalysis_Battle
 import Log
 
 class DataFactory():
@@ -16,20 +17,21 @@ class DataFactory():
      def work(self):
         arr = self.m_tablename.split('_')
         type = arr[0];
-
         try:
           calculation  = {'CONSUME':lambda:self.DataAnalysis_CONSUME(), 
                           'OBTAIN':lambda:self.DataAnalysis_OBTAIN(), 
-                          'CREATECHAR':lambda:self.DataAnalysis_CREATECHAR(), 
                           'LOGIN':lambda:self.DataAnalysis_CHARBASEACTION(), 
                           'LOGOUT':lambda:self.DataAnalysis_CHARBASEACTION(), 
+                          'BATTLE':lambda:self.DataAnalysis_Battle(),
+                          'COMMENT':lambda:self.DataAnalysis_CHARBASEACTION(),
+                          'TIPOFF':lambda:self.DataAnalysis_CHARBASEACTION(),
+                          'CREATECHAR':lambda:self.DataAnalysis_CREATECHAR(), 
                           'RECHARGE':lambda:self.DataAnalysis_CHARBASEACTION(), 
                           'TASK':lambda:self.DataAnalysis_CHARBASEACTION(), 
-                          'ARENA':lambda:self.DataAnalysis_CHARBASEACTION(), 
                           'ENTERMAP':lambda:self.DataAnalysis_CHARBASEACTION(), 
                           'QUITMAP':lambda:self.DataAnalysis_CHARBASEACTION(), 
                           'ONLINE':lambda:self.DataAnalysis_CHARBASEACTION(),
-                          'LISTENCHAT':lambda:self.DataAnalysis_CHARBASEACTION()
+                          'LISTENCHAT':lambda:self.DataAnalysis_CHARBASEACTION(),
                           } 
           nSuccess= calculation[type]() 
           return nSuccess
@@ -47,6 +49,10 @@ class DataFactory():
          analysis = DataAnalysis_Obtain.DataAnalysis_Obtain(self.m_tablename,self.data)
          return analysis.analysis()
 
+     def DataAnalysis_Battle(self):
+         analysis = DataAnalysis_Battle.DataAnalysis_Battle(self.m_tablename,self.data)
+         return analysis.analysis()
+
      def DataAnalysis_CHARBASEACTION(self):
          analysis = DataAnalysis_CharBaseAction.DataAnalysis_CharBaseAction(self.m_tablename,self.data,self.swith)
          return analysis.analysis()
@@ -54,6 +60,10 @@ class DataFactory():
      def DataAnalysis_CREATECHAR(self):
          analysis = DataAnalysis_CreateChar.DataAnalysis_CreateChar(self.m_tablename,self.data,self.swith)
          return analysis.analysis()
+
+     #def DataAnalysis_BATTLE(self):
+     #    analysis = DataAnalysis_CreateChar.DataAnalysis_CharBaseAction(self.m_tablename,self.data,self.swith)
+     #    return analysis.analysis()
 
      #def DataAnalysis_LOGIN(self):
      #    analysis = DataAnalysis_CharBaseAction.DataAnalysis_CharBaseAction(self.m_tablename,data)
@@ -68,10 +78,6 @@ class DataFactory():
      #    return analysis.analysis()
 
      #def DataAnalysis_TASK(self):
-     #    analysis = DataAnalysis_CharBaseAction.DataAnalysis_CharBaseAction(self.m_tablename,data)
-     #    return analysis.analysis()
-
-     #def DataAnalysis_ARENA(self):
      #    analysis = DataAnalysis_CharBaseAction.DataAnalysis_CharBaseAction(self.m_tablename,data)
      #    return analysis.analysis()
 

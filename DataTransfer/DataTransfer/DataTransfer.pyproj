@@ -12,10 +12,6 @@
     <OutputPath>.</OutputPath>
     <Name>DataTransfer</Name>
     <RootNamespace>DataTransfer</RootNamespace>
-    <InterpreterId>
-    </InterpreterId>
-    <InterpreterVersion>
-    </InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,6 +26,7 @@
     <Compile Include="Config.py" />
     <Compile Include="const.py" />
     <Compile Include="DataAnalysis_CharBaseAction.py" />
+    <Compile Include="DataAnalysis_Battle.py" />
     <Compile Include="DataAnalysis_Consume.py" />
     <Compile Include="DataAnalysis_CreateChar.py" />
     <Compile Include="DataAnalysis_Obtain.py" />
@@ -41,13 +38,15 @@
     <Compile Include="Log.py" />
     <Compile Include="Logger.py" />
     <Compile Include="Mark.py" />
-    <Compile Include="Model_Arena.py" />
+    <Compile Include="Model_Tipoff.py" />
     <Compile Include="Model_Consume.py" />
     <Compile Include="Model_CreateChar.py" />
     <Compile Include="Model_Entermap.py" />
     <Compile Include="Model_ListenChat.py" />
     <Compile Include="Model_Login.py" />
     <Compile Include="Model_Logout.py" />
+    <Compile Include="Model_Battle.py" />
+    <Compile Include="Model_Comment.py" />
     <Compile Include="Model_Obtain.py" />
     <Compile Include="Model_Online.py" />
     <Compile Include="Model_Quitmap.py" />
@@ -128,10 +127,7 @@
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
-    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
-  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
-  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
        the BeforeBuild and AfterBuild targets below. -->
@@ -140,4 +136,5 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

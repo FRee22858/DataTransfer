@@ -24,3 +24,32 @@
 [2017-04-17 11:54:15][ERROR]>DataFactory.work() error code: a bytes-like object is required, not 'str'
 [2017-04-17 11:55:02][ERROR]>DataFactory.work() error code: a bytes-like object is required, not 'str'
 [2017-04-17 11:56:22][ERROR]>DataFactory.work() error code: list index out of range
+[2018-01-22 18:28:45][ERROR]>Can not find the dir:C:\Logtest
+[2018-01-22 18:31:03][ERROR]>Can not find the dir:C:\Logtest
+[2018-01-22 18:33:57][ERROR]>Mysql qurery Error: 
+  (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PcUid (PcUid)\n                         )' at line 15")
+[2018-01-22 18:33:57][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 18:34:06][ERROR]>Mysql qurery Error: 
+  (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PcUid (PcUid)\n                         )' at line 15")
+[2018-01-22 18:34:06][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 18:34:07][ERROR]>Mysql qurery Error: 
+  (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PcUid (PcUid)\n                         )' at line 15")
+[2018-01-22 18:34:07][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 18:34:19][ERROR]>Mysql qurery Error: 
+  (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PcUid (PcUid)\n                         )' at line 15")
+[2018-01-22 18:34:19][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 18:36:08][ERROR]>Mysql qurery Error: 
+  (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PcUid (PcUid)\n                         )' at line 15")
+[2018-01-22 18:58:14][ERROR]>Mysql qurery Error: 
+  (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PcUid (PcUid)\n                         )' at line 15")
+[2018-01-22 18:58:18][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 19:00:36][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 19:03:11][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 19:03:57][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 19:04:53][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 19:04:58][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 19:05:55][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 19:06:54][ERROR]>DBManager get insertSql error code: not enough arguments for format string
+[2018-01-22 19:13:47][ERROR]>Mysql qurery Error: 
+  (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\n                         ConsumeType INT NOT NULL DEFAULT '0',\n                ' at line 10")
+[2018-01-22 19:13:49][ERROR]>DBManager get insertSql error code: not enough arguments for format string

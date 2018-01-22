@@ -2,10 +2,11 @@
 class _const:
     class ConstError(TypeError) : pass
 
-def __setattr__(self, key, value):
+    def __setattr__(self, key, value):
         # self.__dict__
         if self.__dict__.has_key(key):
-            raise self.ConstError,"constant reassignment error!"
+            errtext = "constant reassignment error!"
+            raise self.ConstError(errtext)
         self.__dict__[key] = value
 
 import sys
