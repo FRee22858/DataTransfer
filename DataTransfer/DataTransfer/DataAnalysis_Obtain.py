@@ -29,7 +29,8 @@ class DataAnalysis_Obtain():
                      Log.error("DataAnalysis_Obtain.analysis() db error code: %s"%(str(e)))
                      return -1
             else:
-                return 0          
+                return 0         
+            
                
 
 
